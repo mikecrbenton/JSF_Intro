@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./template.xhtml">
+
+            <ui:define name="title">
+                Greeting
+            </ui:define>
+
+            <ui:define name="box" class="subContainer greyBox">
+                <h4>Hi, my name is Duke!</h4>
+
+                <h5>Would you like to play a guessing game?</h5>
+                <h:form>
+                    <h4><h:outputText escape="false" value="#{userNumberBean.message}"/></h4>
+                    <h:commandButton id="submit" value="Play" 
+                     action="#{userNumberBean.generateRandomNumber()}" /> <!-- This was p: -->
+                    <h:commandButton  value="View Statistics" action="statistics" />                      
+                </h:form>
+                
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
