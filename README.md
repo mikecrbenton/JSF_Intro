@@ -6,6 +6,7 @@ You will download a zipfile of this project with the basic framework already in 
 allows users to guess a number and see if it matches the correct guess. For this project you will follow the 
 modification directions in the assignment handout to add to the .xhtml pages and to auto-generate a Managed Bean and add the 
 correct annotations and imports. 
+
 You will also add the following functionality for users to view statisical information. 
 
 * 1) Add a "View Statistics" button to the index.xhtml
