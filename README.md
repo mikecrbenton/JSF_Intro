@@ -1,5 +1,5 @@
 # JSF_Intro
-CSC 470 Software Engineering // Basic project intro to Java Server Faces
+CSC 470 Software Engineering // Basic project intro to Java Server Faces.  Much of the project codebase is boilerplate, frameworks and project walkthrough.  All code written for the assignment is labeled and linked below.
 
 ## Assignment Overview:
 You will download a zipfile of this project with the basic framework already in place. The project file is a simple game that
